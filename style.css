@@ -1,0 +1,28 @@
+body {
+    font-family: 'Squada One';
+}
+
+.red {
+    color: red;
+}
+
+#heading {
+    position: absolute;
+    top: 30%;
+    left: calc(50% - 350px);
+    width: 700px;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    border-image: -webkit-linear-gradient(0deg,transparent 3%,black 50%,transparent 97%) 20 stretch;
+}
+
+#countdown {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+}
