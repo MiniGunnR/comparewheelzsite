@@ -1,16 +1,16 @@
 body {
-    font-family: 'Squada One';
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .red {
     color: red;
 }
 
-#heading {
+#content {
     position: absolute;
-    top: 30%;
-    left: calc(50% - 350px);
-    width: 700px;
+    width: 100%;
+    margin-top: 25vh;
 }
 
 h1 {
@@ -22,7 +22,20 @@ hr {
 }
 
 #countdown {
-    text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
+}
+
+#cookie {
+    width: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    #cookie {
+        width: 20%;
+    }
+
+    #countdown {
+        font-size: 2em;
+    }
 }
